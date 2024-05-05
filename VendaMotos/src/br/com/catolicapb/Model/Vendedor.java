@@ -21,7 +21,6 @@ public class Vendedor extends CadastrarVendedor implements IVendedor {
                 break;
             }else {
                 validacao = false;
-                break;
             }
         }
         if (validacao != false){

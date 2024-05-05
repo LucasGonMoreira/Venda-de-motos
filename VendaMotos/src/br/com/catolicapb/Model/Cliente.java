@@ -11,7 +11,7 @@ public class Cliente extends CadastrarCliente implements ICliente {
 
     public void comprarMoto(Vendedor vendedor){
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Digite o nome de um vendedor: ");
+        System.out.print("Digite o nome de um vendedor: ");
         String vendedorNome = scanner.next();
 
         if (vendedorNome.equals(vendedor.nome)){
@@ -28,7 +28,6 @@ public class Cliente extends CadastrarCliente implements ICliente {
                     break;
                 } else {
                     validacao = false;
-                    break;
                 }
             }
             if (validacao != false) {

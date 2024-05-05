@@ -28,12 +28,15 @@ public class Main {
             switch (opcao) {
                 case 1:
                     vendedor.cadastrarVendedor();
+
                     break;
                 case 2:
                     cliente.cadastrarCliente();
+
                     break;
                 case 3:
                     dono.cadastrarDono();
+
                     break;
                 case 4:
                     System.out.print("Digite seu nome: ");

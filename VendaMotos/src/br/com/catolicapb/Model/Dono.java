@@ -17,8 +17,6 @@ public class Dono extends Pessoa implements IDono {
         this.nome = scanner.next();
         System.out.print("Digite o cpf: ");
         this.cpf = scanner.next();
-        System.out.print("Digite o codigo do dono: ");
-        this.codigo = scanner.next();
         System.out.print("Digite o dia do seu nascimento: ");
         this.dia = scanner.nextInt();
         System.out.print("Digite o mes do seu nascimento: ");
