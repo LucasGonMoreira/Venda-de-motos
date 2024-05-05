@@ -30,7 +30,7 @@ public class Dono extends Pessoa implements IDono {
                 verifi = true;
                 System.out.print("Digite o ano do seu nascimento: ");
                 this.ano = scanner.nextInt();
-                System.out.println("Digite um codigo para ser seu: ");
+                System.out.print("Digite um codigo para ser seu: ");
                 this.codigo = scanner.next();
                 System.out.println("\nDono cadastrado com sucesso!!!\n");
                 break;
